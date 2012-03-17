@@ -1,3 +1,5 @@
+use lib 'inc';
+use Devel::AssertOS qw[MSWin32];
 
 use strict;
 use warnings;
@@ -9,20 +11,20 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'convert Win32::OLE::Variant to DateTime object and vice versa.',
-  'AUTHOR' => 'xiaoyafeng <xyf.xiao@gmail.com>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "convert Win32::OLE::Variant to DateTime object and vice versa.\r",
+  "AUTHOR" => "xiaoyafeng <xyf.xiao\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'DateTime-Format-Variant',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'DateTime::Format::Variant',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.1',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "DISTNAME" => "DateTime-Format-Variant",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "DateTime::Format::Variant",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.2",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

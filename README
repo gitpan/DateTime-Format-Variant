@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution DateTime-Format-Variant,
-version 0.1:
+version 0.2:
 
   convert Win32::OLE::Variant to DateTime object and vice versa.
 
